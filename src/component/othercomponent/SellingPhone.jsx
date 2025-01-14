@@ -253,7 +253,7 @@ const SellingPhone = () => {
           <div className="mt-8 text-center">
             <p className="text-gray-700 mb-4">Expert technicians with years of experience</p>
             <button 
-              onClick={() => navigate('/service-booking')}
+              onClick={() => navigate('/contact')}
               className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
             >
               Book a Repair Service
