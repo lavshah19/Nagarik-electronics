@@ -1,43 +1,7 @@
 import React from 'react'
-import { motion, useInView } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const SellingPhone = () => {
-  const navigate = useNavigate();
-  
-  // Container animation variants
-  const containerVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        staggerChildren: 0.1
-      }
-    }
-  }
-
-  // Item animation variants
-  const itemVariants = {
-    hidden: { opacity: 0, x: -20 },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: { duration: 0.5 }
-    }
-  }
-
-  // Add fade-up animation for sections
-  const fadeUpVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 }
-    }
-  }
-
   return (
     <div className="bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
@@ -63,13 +27,7 @@ const SellingPhone = () => {
           </ul>
         </div>
 
-        <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={fadeUpVariants}
-          className="mb-12"
-        >
+        <div className="mb-12">
           <h2 className="text-2xl font-semibold text-white mb-8">Our Product Categories</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -116,7 +74,7 @@ const SellingPhone = () => {
                 path: "/laptops"
               }
             ].map((category, index) => (
-              <motion.div 
+              <div 
                 key={index}
                 className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105"
               >
@@ -130,35 +88,21 @@ const SellingPhone = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">{category.title}</h3>
                   <p className="text-gray-600 mb-4">{category.description}</p>
-                  <button
-                    onClick={() => category.path && navigate(category.path)}
-                    className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors w-full"
+                  <Link
+                    to={category.path}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors w-full block text-center"
                   >
                     More Details
-                  </button>
+                  </Link>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          className="mb-12"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={containerVariants}
-        >
-          <motion.h2 
-            className="text-2xl font-semibold text-white mb-8"
-            variants={itemVariants}
-          >
-            Featured Deals
-          </motion.h2>
-          <motion.div 
-            className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8"
-            variants={itemVariants}
-          >
+        <div className="mb-12">
+          <h2 className="text-2xl font-semibold text-white mb-8">Featured Deals</h2>
+          <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
@@ -186,26 +130,19 @@ const SellingPhone = () => {
                   price: "Starting from NPR 2,990"
                 }
               ].map((deal, index) => (
-                <motion.div
+                <div
                   key={index}
                   className="p-4 border rounded-lg hover:bg-blue-50 transition-all"
-                  variants={itemVariants}
                 >
                   <h3 className="font-semibold text-blue-800">{deal.title}</h3>
                   <p className="text-blue-600 mt-2">{deal.price}</p>
-                </motion.div>
+                </div>
               ))}
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
 
-        <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={fadeUpVariants}
-          className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-12"
-        >
+        <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Repair & Service Center</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -252,22 +189,16 @@ const SellingPhone = () => {
           </div>
           <div className="mt-8 text-center">
             <p className="text-gray-700 mb-4">Expert technicians with years of experience</p>
-            <button 
-              onClick={() => navigate('/contact')}
-              className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+            <Link 
+              to="/contact"
+              className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors inline-block"
             >
               Book a Repair Service
-            </button>
+            </Link>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={fadeUpVariants}
-          className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8"
-        >
+        <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Service & Support</h2>
           <div className="warranty-details">
             <p className="text-lg text-gray-700 mb-4">We provide:</p>
@@ -290,7 +221,7 @@ const SellingPhone = () => {
               </li>
             </ul>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   )

@@ -15,13 +15,14 @@ import SmallApp from './component/othercomponent/SmallApp'
 import AboutLaptop from './component/othercomponent/AboutLaptop'
 import Footer from './component/Footer'
 import AboutTv from './component/othercomponent/AboutTv'
-
+import ScrollToTop from './component/scrollToTop'
 function App() {
   
 
   return (
     <div className='min-h-screen '>
     <Navbar/>
+    <ScrollToTop/>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path='/services' element={<Service/>}/>
