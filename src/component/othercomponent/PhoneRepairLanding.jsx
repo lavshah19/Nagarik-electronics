@@ -128,9 +128,97 @@ const PhoneRepairLanding = () => {
               <div className="text-gray-600 font-medium">Expert Technicians</div>
             </div>
             <div className="bg-blue-50 p-8 rounded-xl text-center">
-              <div className="text-5xl font-bold text-blue-600 mb-2">10+</div>
+              <div className="text-5xl font-bold text-blue-600 mb-2">8+</div>
               <div className="text-gray-600 font-medium">Years Experience</div>
             </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Laptop Repair Section */}
+      <motion.div 
+        className="bg-gray-50 py-16"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
+            {/* Laptop Image */}
+            <motion.div 
+              className="flex-1"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1770&auto=format&fit=crop"
+                  alt="Laptop Repair" 
+                  className="rounded-lg shadow-lg w-full"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent rounded-lg"></div>
+              </div>
+            </motion.div>
+
+            {/* Laptop Repair Content */}
+            <motion.div 
+              className="flex-1"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <motion.span 
+                className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-medium"
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+              >
+                Expert Laptop Services
+              </motion.span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-6 mb-4">
+                Professional Laptop Repair Solutions
+              </h2>
+              <p className="text-gray-600 mb-6">
+                We offer comprehensive laptop repair services including:
+              </p>
+              <ul className="space-y-3 text-gray-600">
+                {[
+                  'Hardware repairs and replacements',
+                  'Screen and display repairs',
+                  'Keyboard and trackpad fixes',
+                  'Battery replacement',
+                  'Virus removal and software issues',
+                  'Data recovery services'
+                ].map((service, index) => (
+                  <motion.li 
+                    key={index}
+                    className="flex items-center gap-2"
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.1 * index }}
+                  >
+                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    {service}
+                  </motion.li>
+                ))}
+              </ul>
+              <motion.button 
+                className="mt-8 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => window.location.href = 'mailto:nagarikelectronics1986@gmail.com'}
+              >
+                Get Laptop Support
+              </motion.button>
+            </motion.div>
           </div>
         </div>
       </motion.div>

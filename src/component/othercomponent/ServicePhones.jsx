@@ -1,22 +1,42 @@
 import React from 'react'
 import { motion, useInView } from 'framer-motion'
 
-const ServicePhones = () => {
+const ServiceRepairs = () => {
   const services = [
     {
-      title: "iPhone Repair",
-      image: "https://images.unsplash.com/photo-1616410011236-7a42121dd981?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add your image path
-      description: "Expert iPhone repair services for all models. Fast and reliable fixes for screens, batteries, and more."
+      title: "Mobile Repair",
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add image path later
+      description: "Expert repair services for all mobile phones including iPhone, Samsung, and other Android devices. Screen replacement, battery issues, and more."
     },
     {
-      title: "iPad Repair",
-      image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add your image path
-      description: "Professional iPad repair solutions. From screen replacements to charging issues, we've got you covered."
+      title: "TV Repair",
+      image: "https://images.unsplash.com/photo-1646821804389-9778ce2a4fd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add image path later
+      description: "Professional TV repair service for all brands. We fix display issues, sound problems, panel replacement, and smart TV troubleshooting."
     },
     {
-      title: "Android Repair",
-      image: "https://images.unsplash.com/photo-1600087626120-062700394a01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add your image path
-      description: "Comprehensive Android device repairs. We fix Samsung, Google, OnePlus, and all major brands."
+      title: "Refrigerator Service",
+      image: "https://images.unsplash.com/photo-1716193696093-9c54b6a290e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add image path later
+      description: "Complete refrigerator repair and maintenance. We handle cooling issues, gas charging, thermostat repairs, and component replacement."
+    },
+    {
+      title: "Washing Machine Repair",
+      image: "https://plus.unsplash.com/premium_photo-1664372899525-d99a419fd21a?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add image path later
+      description: "Expert washing machine repairs for all brands. Fixing motor issues, spin problems, water leakage, and control board repairs."
+    },
+    {
+      title: "Kitchen Appliances",
+      image: "https://plus.unsplash.com/premium_photo-1683140593992-4a963b0b9f4b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Add image path later
+      description: "Repairs for rice cookers, microwave ovens, electric kettles, induction cooktops, and other kitchen electronics."
+    },
+    {
+      title: "Commercial Cooling",
+      image: "https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg", // Add image path later
+      description: "Service and repair for chest freezers, display coolers, and commercial refrigeration units."
+    },
+    {
+      title: "Laptop Repair",
+      image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Professional laptop repair services for all brands. We fix hardware issues, screen replacement, keyboard repairs, battery replacement, software problems, and virus removal. Expert diagnostics and quick turnaround time."
     }
   ]
 
@@ -32,7 +52,7 @@ const ServicePhones = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Repair Services</h2>
           <p className="text-white max-w-2xl mx-auto">
-            Professional repair services for all your devices. Fast, reliable, and backed by our satisfaction guarantee.
+            Professional repair services for all your electronic devices and home appliances. Fast, reliable, and backed by our satisfaction guarantee.
           </p>
         </motion.div>
 
@@ -70,4 +90,4 @@ const ServicePhones = () => {
   )
 }
 
-export default ServicePhones
+export default ServiceRepairs

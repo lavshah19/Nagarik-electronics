@@ -24,7 +24,7 @@ const Banner = () => {
           </div>
           
           <p className="text-xl text-blue-100 italic">
-            Your Trusted Electronics Partner Since 1986
+            Your Trusted Electronics Partner Since 2073/10/18
           </p>
 
           <div className="space-y-3">
@@ -33,13 +33,25 @@ const Banner = () => {
             </p>
             <ul className="list-disc list-inside space-y-2 text-blue-50">
               <li className="animate-slideFromLeft animation-delay-100">
-                Quick Mobile Phone Repairs - Most fixes done same day!
+                Mobile Phones, Repairs & Accessories
               </li>
               <li className="animate-slideFromLeft animation-delay-200">
-                Latest Mobile Phones & Accessories
+                Laptops: Sales, Repairs & Accessories
               </li>
               <li className="animate-slideFromLeft animation-delay-300">
-                Expert Technical Support
+                Home Appliances: TV, Refrigerator, Washing Machine & Chest Freezer
+              </li>
+              <li className="animate-slideFromLeft animation-delay-400">
+                Kitchen Electronics: Rice Cooker, Microwave, Electric Kettle & Induction Cooktop
+              </li>
+              <li className="animate-slideFromLeft animation-delay-500">
+                Fans
+              </li>
+              <li className="animate-slideFromLeft animation-delay-600">
+                Expert Repair Services for All Electronics
+              </li>
+              <li className="animate-slideFromLeft animation-delay-700">
+                Free Technical Consultation
               </li>
             </ul>
           </div>
@@ -66,7 +78,7 @@ const Banner = () => {
         <div className="md:w-1/2 mt-6 md:mt-0 animate-fadeIn">
           <div className="bg-white/10 backdrop-blur-sm h-64 md:h-80 rounded-lg flex items-center justify-center border border-blue-400/30 shadow-lg">
             <img 
-              src="https://images.unsplash.com/1/iphone-4-closeup.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+              src="/ourgallery/1.jpeg" 
               alt="Nagarik Electronics Shop"
               className="w-full h-full object-cover rounded-lg"
             />

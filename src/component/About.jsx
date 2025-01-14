@@ -26,28 +26,52 @@ const About = () => {
 
   const cards = [
     {
-      title: "Local Trusted Shop",
-      description: "As a local business in Bansgadhi, we understand our community's needs and provide personalized service to each customer.",
+      title: "All Electronics in One Place",
+      description: "We sell all types of electronics - from mobile phones to TVs, fridges, and washing machines. Whatever you need, you'll find it here.",
       bgColor: "bg-blue-50 hover:bg-blue-100",
       borderColor: "border-l-4 border-blue-500"
     },
     {
-      title: "Quick Repair Service",
-      description: "From screen repairs to battery replacements, we fix most phone problems within 24 hours, getting you back to your daily routine.",
+      title: "Home Electronics",
+      description: "We have everything for your home - fridges, washing machines, TVs, freezers, and more. All from good brands you can trust.",
       bgColor: "bg-green-50 hover:bg-green-100",
       borderColor: "border-l-4 border-green-500"
     },
     {
-      title: "Wide Range of Phones",
-      description: "We offer both new and certified pre-owned phones at great prices, with all used phones thoroughly tested and warranted.",
+      title: "TV and Sound Systems",
+      description: "Get the best TVs and sound systems for your home. Watch movies and listen to music with amazing quality.",
       bgColor: "bg-purple-50 hover:bg-purple-100",
       borderColor: "border-l-4 border-purple-500"
     },
     {
-      title: "Professional Support",
-      description: "Our experienced team provides honest advice and clear pricing, ensuring you get the best solution for your needs and budget.",
+      title: "Kitchen Electronics",
+      description: "Make cooking easy with our rice cookers, water boilers, induction stoves, and microwaves. Perfect for every kitchen.",
       bgColor: "bg-orange-50 hover:bg-orange-100",
       borderColor: "border-l-4 border-orange-500"
+    },
+    {
+      title: "Quick Repair Service",
+      description: "Our experts can fix your electronics quickly - from phones to home appliances. Fast and reliable repairs at good prices.",
+      bgColor: "bg-red-50 hover:bg-red-100",
+      borderColor: "border-l-4 border-red-500"
+    },
+    {
+      title: "Friendly Help",
+      description: "Our team is here to help you choose the right product. We give honest advice and good service to all customers.",
+      bgColor: "bg-teal-50 hover:bg-teal-100",
+      borderColor: "border-l-4 border-teal-500"
+    },
+    {
+      title: "Laptops & Computers",
+      description: "Browse our collection of laptops from trusted brands. Whether for work, study, or gaming, we'll help you find the perfect computer.",
+      bgColor: "bg-indigo-50 hover:bg-indigo-100",
+      borderColor: "border-l-4 border-indigo-500"
+    },
+    {
+      title: "Expert Computer Repairs",
+      description: "Having laptop problems? Our skilled technicians can fix hardware issues, remove viruses, upgrade components, and get your computer running like new.",
+      bgColor: "bg-yellow-50 hover:bg-yellow-100",
+      borderColor: "border-l-4 border-yellow-500"
     }
   ]
 
@@ -80,13 +104,13 @@ const About = () => {
             className="text-lg text-gray-700 leading-relaxed mb-4"
             variants={itemVariants}
           >
-            Located in Bansgadhi Municipality-8, Bardiya, we are your trusted local mobile phone shop. Since opening our doors, we've been serving our community with quality mobile phones, repair services, and excellent customer care.
+            Welcome to Nagarik Electronics in Bansgadhi Municipality-8, Bardiya. We sell and repair all types of electronics. From mobile phones and laptops to home appliances, we have everything you need in one place.
           </motion.p>
           <motion.p 
             className="text-lg text-gray-700 leading-relaxed"
             variants={itemVariants}
           >
-            Whether you need a new phone, quick repairs, or expert advice, our friendly team at Nagarik Electronics is here to help. We understand how important your phone is in daily life, which is why we strive to provide fast and reliable service.
+            Looking for a new laptop, TV, fridge, washing machine, or kitchen items like rice cookers and microwaves? We have them all. Our expert technicians also provide professional computer repair services, including hardware fixes and software solutions. Our friendly staff is ready to help you find exactly what you need.
           </motion.p>
         </motion.div>
         
@@ -113,9 +137,9 @@ const About = () => {
           className="mt-8 p-6 rounded-lg shadow-sm bg-gradient-to-r from-blue-50 to-purple-50 border-t-4 border-blue-500"
           variants={itemVariants}
         >
-          <h3 className="font-semibold text-xl mb-2 text-gray-800">Visit Us</h3>
+          <h3 className="font-semibold text-xl mb-2 text-gray-800">Come Visit Us</h3>
           <p className="text-gray-700">
-            Find us in Bansgadhi Municipality-8, Bardiya. We're open Monday to Saturday, ready to help with all your mobile phone needs.
+            You can find us in Bansgadhi Municipality-8, Bardiya. We're open Monday to Saturday. Come by anytime - we're happy to help!
           </p>
         </motion.div>
       </motion.div>
