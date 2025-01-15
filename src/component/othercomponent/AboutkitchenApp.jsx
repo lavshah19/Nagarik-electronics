@@ -7,7 +7,7 @@ const AboutkitchenApp = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to Nagarik Electronics</h1>
-          <p className="text-lg text-gray-600">Your friendly kitchen appliance store since 2073 B.S.</p>
+          <p className="text-lg text-gray-600">Your friendly kitchen appliance store since 2017 AD</p>
         </div>
 
         {/* About Section */}
