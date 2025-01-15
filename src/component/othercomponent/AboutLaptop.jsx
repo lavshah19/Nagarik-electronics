@@ -6,7 +6,7 @@ const AboutLaptop = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <img 
-            src="https://www.cnet.com/a/img/resize/749c306c97f14076499981fc018dace33d0e367d/hub/2018/02/13/517fda12-de2a-4c3f-bee5-05daaf870537/01laptops-with-longest-battery-life-2018-feb.jpg?auto=webp&width=1200" 
+            src="/savedphoto/bannerlaptop.jpg" 
             alt="Nagarik Electronics Store laptop" 
             className="w-full h-64 object-cover rounded-lg shadow-lg mb-8"
           />
@@ -22,7 +22,7 @@ const AboutLaptop = () => {
           {/* Sales Section */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <img 
-              src="https://cdn.thewirecutter.com/wp-content/media/2024/07/laptopstopicpage-2048px-3685-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp" 
+              src="/savedphoto/prelaptop.jpg" 
               alt="Premium Laptops" 
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
@@ -70,7 +70,7 @@ const AboutLaptop = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-4">
               <img 
-                src="https://cdn.vectorstock.com/i/1000x1000/40/56/expert-team-icon-black-design-vector-45404056.webp" 
+                src="/savedphoto/expertteam.jpg" 
                 alt="Expert Team" 
                 className="w-16 h-16 mx-auto mb-4"
               />
@@ -79,7 +79,7 @@ const AboutLaptop = () => {
             </div>
             <div className="p-4">
               <img 
-                src="https://cdn.vectorstock.com/i/1000x1000/69/81/quick-service-rubber-stamp-vector-13476981.webp" 
+                src="/savedphoto/quickservice.jpg" 
                 alt="Quick Service" 
                 className="w-16 h-16 mx-auto mb-4"
               />
@@ -88,7 +88,7 @@ const AboutLaptop = () => {
             </div>
             <div className="p-4">
               <img 
-                src="https://www.citypng.com/public/uploads/preview/png-100-satisfaction-guaranteed-gold-badge-label-704081694710032kzh3hunaqd.png" 
+                src="/savedphoto/satisfy.png" 
                 alt="Quality Guarantee" 
                 className="w-16 h-16 mx-auto mb-4"
               />

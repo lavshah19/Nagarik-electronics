@@ -26,7 +26,7 @@ const AboutkitchenApp = () => {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://megafurniture.sg/cdn/shop/articles/buying-guide-how-to-get-the-best-kitchen-appliances-megafurniture_9e2e88d4-59ff-48e4-882a-b1a71451a221.jpg?v=1721304078&width=2000" 
+              src="/savedphoto/kitchen1.jpg" 
               alt="Nagarik Electronics Store" 
               className="w-full h-[400px] object-cover"
             />

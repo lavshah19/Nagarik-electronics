@@ -11,7 +11,7 @@ const AboutSmartphone = () => {
         <div className="text-center mb-12 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://cdn.thewirecutter.com/wp-content/media/2024/08/androidphones-2048px-04371-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp" 
+              src="/savedphoto/phone11.jpg" 
               alt="Smartphone Services" 
               className="w-full h-64 sm:h-48 object-cover rounded-lg opacity-70"
             />
@@ -35,7 +35,7 @@ const AboutSmartphone = () => {
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="mb-4">
                 <img 
-                  src="https://www.zdnet.com/a/img/resize/11496d49dd57164e537155a8ce183952ee6cf9bf/2024/09/20/26bb71de-4ca7-41f1-b571-aa8b8fbea984/pxl-20240920-182818696-mp.jpg?auto=webp&fit=crop&height=675&width=1200" 
+                  src="/savedphoto/phone2.jpg" 
                   alt="Premium Smartphones" 
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
@@ -73,7 +73,7 @@ const AboutSmartphone = () => {
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="mb-4">
                 <img 
-                  src="https://img.freepik.com/premium-vector/why-choose-us-labels-speech-bubbles-with-megaphone-icon-banner-social-media-website-faq_121070-582.jpg?w=900" 
+                  src="/savedphoto/whychooseus.jpg" 
                   alt="Our Team" 
                   className="w-full h-56 object-cover rounded-lg mb-4"
                 />

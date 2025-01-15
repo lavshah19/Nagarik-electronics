@@ -40,31 +40,31 @@ const SellingPhone = () => {
               {
                 title: "Home Appliances",
                 description: "Refrigerators, Washing Machines & More",
-                image: "https://cdn.thewirecutter.com/wp-content/media/2024/09/BEST-REFRIGERATOR-2048px-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp",
+                image: "/savedphoto/frig.jpg",
                 path: "/home-appliances"
               },
               {
                 title: "Kitchen Appliances",
                 description: "Rice Cookers, Microwaves & Induction Cookers",
-                image: "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2020/10/Favorite-Small-Kitchen-Appliances-2-600x338.jpg",
+                image: "/savedphoto/outerkitchen.jpg",
                 path: "/kitchen-appliances"
               },
               {
                 title: "Smartphones",
                 description: "Latest models from all major brands",
-                image: "https://autoncell.blr1.cdn.digitaloceanspaces.com/private-uploads/news-1682434257257-9a4b9.jpg",
+                image: "/savedphoto/outerphone.jpg",
                 path: "/smartphones"
               },
               {
                 title: "Cooling Solutions",
                 description: "ACs, Fans & Chest Freezers",
-                image: "https://hips.hearstapps.com/hmg-prod/images/best-fans-of-2024-664b79311017c.png?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+                image: "/savedphoto/outerfan.jpg",
                 path: "/cooling-solutions"
               },
               {
                 title: "Small Appliances",
                 description: "Electric Kettles, Irons & Daily Essentials",
-                image: "https://www.seriouseats.com/thmb/0tei0mEYr25YbD48PVCTO4DgnqY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/electric-tea-kettle-lead-gk-03edb0a024e84410b33e5e0467c624ab.jpg",
+                image: "/savedphoto/outerelecketly.jpg",
                 path: "/small-appliances"
               },
               {

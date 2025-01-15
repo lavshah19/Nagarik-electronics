@@ -9,7 +9,7 @@ const Aboutcooling = () => {
         <div className="text-center mb-12 relative">
           <div className="w-full h-[400px] mb-8 rounded-xl overflow-hidden">
             <img
-              src="https://www.usatoday.com/gcdn/presto/2022/05/09/USAT/baa20b3e-8f27-4a5c-8ec2-bc4fd8bcec62-gettyimagesAlexLMX.png?width=660&height=372&fit=crop&format=pjpg&auto=webp"
+              src="/savedphoto/bannerfan.jpg"
               alt="Nagarik Electronics Store"
               className="w-full h-full object-cover"
             />
@@ -29,7 +29,7 @@ const Aboutcooling = () => {
             </div>
             <div className="h-[300px] rounded-lg overflow-hidden">
               <img
-                src="https://dailyasianage.com/library/1490036078_7.jpg"
+                src="/savedphoto/fan2.jpg"
                 alt="Inside our store"
                 className="w-full h-full object-cover"
               />
@@ -43,7 +43,7 @@ const Aboutcooling = () => {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="h-48 overflow-hidden">
               <img
-                src="https://blueberrysindia.com/wp-content/uploads/2021/09/2-1-1536x1536.jpg"
+                src="/savedphoto/fan3.jpg"
                 alt="Table Fan"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -58,7 +58,7 @@ const Aboutcooling = () => {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="h-48 overflow-hidden">
               <img
-                src="https://m.media-amazon.com/images/I/71whSf-qEcL._AC_SL1500_.jpg"
+                src="/savedphoto/fan4.jpg"
                 alt="Ceiling Fan"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />

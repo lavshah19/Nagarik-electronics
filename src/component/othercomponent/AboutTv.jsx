@@ -5,7 +5,7 @@ const AboutTv = () => {
     <section className=" bg-gray-50">
       <div className="relative h-[300px] mb-12">
         <img 
-          src="https://koala.sh/api/image/v2-8dy2l-99mnl.jpg?width=1344&height=768&dream" 
+          src="/savedphoto/tv1.jpg" 
           alt="Nagarik Electronics TV Showroom"
           className="w-full h-full object-cover object-center rounded-lg shadow-lg"
         />
@@ -25,7 +25,7 @@ const AboutTv = () => {
             
             <div className="relative h-[200px] lg:h-[300px] my-8">
               <img 
-                src="https://www.allureinternational.com.np/image/variation_product_image/1VL0YKTJ9lRfaxPvwYoBU7AZ2dy1vkP87b7Mdy6s.jpg" 
+                src="/savedphoto/tv2.jpg" 
                 alt="tv"
                 className="w-[80%] h-full object-cover  rounded-lg shadow-md"
               />
@@ -79,7 +79,7 @@ const AboutTv = () => {
             
             <div className="relative h-[250px] lg:h-[350px] overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="https://www.russells.co.za/api/catalog/product/l/t/lt_32n750a_pic_ecommerce_ca0d.png?width=848&height=424&store=russells&image-type=image" 
+                src="/savedphoto/tv3.jpg" 
                 alt="Premium TV Display"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
               />

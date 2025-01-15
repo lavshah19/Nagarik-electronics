@@ -30,7 +30,7 @@ const ServiceRepairs = () => {
     },
     {
       title: "Commercial Cooling",
-      image: "https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg", // Add image path later
+      image: "/savedphoto/whitefan.jpeg", // Add image path later
       description: "Service and repair for chest freezers, display coolers, and commercial refrigeration units."
     },
     {

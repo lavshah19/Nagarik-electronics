@@ -24,7 +24,7 @@ const Banner = () => {
           </div>
           
           <p className="text-xl text-blue-100 italic">
-            Your Trusted Electronics Partner Since 2073/10/18
+            Your Trusted Electronics Partner Since 2017 AD
           </p>
 
           <div className="space-y-3">
@@ -75,7 +75,7 @@ const Banner = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="md:w-1/2 mt-6 md:mt-0 animate-fadeIn">
+        <div className="md:w-1/2 mt-6 md:mt-0 animate-fadeIn w-full">
           <div className="bg-white/10 backdrop-blur-sm h-64 md:h-80 rounded-lg flex items-center justify-center border border-blue-400/30 shadow-lg">
             <img 
               src="/ourgallery/1.jpeg" 

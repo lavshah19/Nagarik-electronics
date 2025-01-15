@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaPhone, FaMapMarkerAlt, FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaPhone, FaMapMarkerAlt, FaFacebook, FaTiktok } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -52,11 +52,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
             <div className="flex gap-4">
-              <a href="https://www.facebook.com/" className="text-2xl hover:text-blue-400">
+              <a href="https://www.facebook.com/profile.php?id=100082508861018&mibextid=ZbWKwL" className="text-2xl hover:text-blue-400">
                 <FaFacebook />
               </a>
-              <a href="https://www.instagram.com/" className="text-2xl hover:text-blue-400">
-                <FaInstagram />
+              <a href="https://www.tiktok.com/@nagarikelectronics806?_t=ZS-8t4eyMW5nbr&_r=1" className="text-2xl hover:text-blue-400">
+                <FaTiktok />
               </a>
             </div>
           </div>

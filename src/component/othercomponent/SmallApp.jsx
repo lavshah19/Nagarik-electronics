@@ -9,7 +9,7 @@ const SmallApp = () => {
         {/* Item 1 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
           <img 
-            src="https://www.eatingwell.com/thmb/RpadSggfO_GDCJCJNCbxn91Tvig=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ewl-primary-electric-kettles-rkilgore-524-64e5c5e459754e9697a493001a9b02bd.jpeg" 
+            src="/savedphoto/elec1.jpg"
             alt="Electric Kettle" 
             className="w-full h-48 object-cover"
           />
@@ -22,7 +22,7 @@ const SmallApp = () => {
         {/* Item 2 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
           <img 
-            src="https://www.cginspiringlife.com/wp-content/uploads/2022/03/CGID01002.jpg" 
+            src="/savedphoto/iron.jpg" 
             alt="Electric Iron" 
             className="w-full h-48 object-cover"
           />
@@ -35,7 +35,7 @@ const SmallApp = () => {
         {/* Item 3 - Thermos */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
           <img 
-            src="https://images.othoba.com/images/thumbs/0666665_thermos-water-bottle-thermos-with-heating-pot-sport-stainless-steel-double-bottom-drinkware-insulate.webp" 
+            src="/savedphoto/thermos.jpg" 
             alt="Thermos" 
             className="w-full h-48 object-cover"
           />
@@ -48,7 +48,7 @@ const SmallApp = () => {
         {/* Item 4 - Heater */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
           <img 
-            src="https://longwayindia.com/cdn/shop/files/LW-Blaze-800-W-2R-Gray-P1.jpg?v=1735733265&width=800" 
+            src="/savedphoto/heater.jpg" 
             alt="Room Heater" 
             className="w-full h-48 object-cover"
           />
@@ -61,7 +61,7 @@ const SmallApp = () => {
         {/* Item 5 - Chest Freezer */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
           <img 
-            src="https://nordic-lab.com/wp-content/uploads/2022/05/LT_C400_600.jpg" 
+            src="/savedphoto/chestfreez.jpg" 
             alt="Chest Freezer" 
             className="w-full h-48 object-cover"
           />
