@@ -10,7 +10,7 @@ const Banner = () => {
             Nagarik Electronics
           </h1>
           <h2 className="text-xl md:text-2xl text-blue-100">
-            Proprietor: Tilak Jaishi
+            Proprietor: Tilak Jaisi
           </h2>
           
           {/* Location */}
