@@ -12,7 +12,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Nagarik Electronics</h3>
             <div className="flex items-center gap-2 mb-2">
               <FaMapMarkerAlt />
-              <p>Bansgadhi Municipality-8, Bardiya</p>
+              <p>Bansgadhi Municipality-5, Bardiya</p>
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">

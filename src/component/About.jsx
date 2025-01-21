@@ -80,7 +80,7 @@ const About = () => {
           className="p-6 mb-4 bg-white rounded-lg shadow-md border border-gray-200"
         >
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Welcome to Nagarik Electronics in Bansgadhi Municipality-8, Bardiya. We sell and repair all types of electronics. From mobile phones and laptops to home appliances, we have everything you need in one place.
+            Welcome to Nagarik Electronics in Bansgadhi Municipality-5, Bardiya. We sell and repair all types of electronics. From mobile phones and laptops to home appliances, we have everything you need in one place.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
             Looking for a new laptop, TV, fridge, washing machine, or kitchen items like rice cookers and microwaves? We have them all. Our expert technicians also provide professional computer repair services, including hardware fixes and software solutions. Our friendly staff is ready to help you find exactly what you need.
@@ -121,7 +121,7 @@ const About = () => {
         >
           <h3 className="font-semibold text-xl mb-2 text-gray-800">Come Visit Us</h3>
           <p className="text-gray-700">
-            You can find us in Bansgadhi Municipality-8, Bardiya. We're open Monday to Saturday. Come by anytime - we're happy to help!
+            You can find us in Bansgadhi Municipality-5, Bardiya. We're open Monday to Saturday. Come by anytime - we're happy to help!
           </p>
         </motion.div>
       </div>
